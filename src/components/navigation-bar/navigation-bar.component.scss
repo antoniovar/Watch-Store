@@ -1,0 +1,54 @@
+.main-navBar-container {
+  position: fixed;
+  z-index: 999px;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 45px;
+  background-color: transparent;
+  padding: 25px 100px;
+  color: white;
+}
+
+.main-navBar-container:hover {
+  background-color: white;
+  color: black;
+}
+
+.navBar-content-container {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  height: 100%;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.searchInput::placeholder {
+  color: white;
+}
+
+.searchInput:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.searchInput:hover::placeholder {
+  color: black;
+}
